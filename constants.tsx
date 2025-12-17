@@ -8,7 +8,7 @@ export const SLIDES: SlideData[] = [
     title: "2026 K-Digital Training\n신입생 오리엔테이션",
     subTitle: "클라우드&데브옵스 배포 기반 실무형 프론트&백엔드(자바, 스프링, 리액트) 멘토링 클래스",
     content: {
-      highlight: "기초 프로그래밍부터 실무 프로젝트까지, 개발자로 거듭나는 1100시간의 여정",
+      highlight: "기초 프로그래밍부터 실무 프로젝트까지, 개발자로 거듭나는 1000시간의 여정",
       footer: "K-Digital Training Center / 2025.12.22"
     }
   },
@@ -239,6 +239,43 @@ export const SLIDES: SlideData[] = [
   },
   {
     id: 11,
+    type: SlideType.CONTENT_PHASE,
+    title: "수료 후, 우리는 어디로 가는가? (업데이트)",
+    subTitle: "🎯 취업 직무 방향",
+    tags: ['Frontend', 'Backend', 'Full-Stack'],
+    content: {
+      tagsTitle: "Career Directions",
+      sections: [
+        {
+          head: "프론트엔드 개발자 (React 기반)",
+          items: [
+            "React / JavaScript(ES6+)",
+            "REST API 연동, SPA 구현",
+            "UI/UX 협업 및 상태 관리 경험"
+          ]
+        },
+        {
+          head: "백엔드 개발자 (Spring Boot)",
+          items: [
+            "Java / Spring MVC",
+            "DB 설계 및 API 서버 구축",
+            "트랜잭션 및 인증 처리"
+          ]
+        },
+        {
+          head: "풀스택 개발자",
+          items: [
+            "React + Spring Boot",
+            "프론트–백엔드 연계 프로젝트 경험",
+            "소규모 팀 및 스타트업 적합"
+          ]
+        }
+      ],
+      point: "🎯 취업 직무 방향"
+    }
+  },
+  {
+    id: 12,
     type: SlideType.CLOSING,
     title: "Development is not a Sprint,\nIt's a Marathon.",
     subTitle: "성공적인 수료를 위한 다짐 & Q&A",
@@ -248,7 +285,7 @@ export const SLIDES: SlideData[] = [
         { label: "소통", text: "팀 프로젝트 시 갈등 관리와 커뮤니케이션" },
         { label: "기록", text: "1일 1커밋, 블로그 회고 작성 권장" }
       ],
-      message: "여러분의 0개월 뒤 모습은 오늘 시작됩니다."
+      message: "여러분의 6개월 뒤 모습은 오늘 시작됩니다."
     }
   }
 ];
