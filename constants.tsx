@@ -240,7 +240,7 @@ export const SLIDES: SlideData[] = [
   {
     id: 11,
     type: SlideType.CONTENT_PHASE,
-    title: "수료 후, 우리는 어디로 가는가? (업데이트)",
+    title: "수료 후, 우리는 어디로 가는가?",
     subTitle: "🎯 취업 직무 방향",
     tags: ['Frontend', 'Backend', 'Full-Stack'],
     content: {
